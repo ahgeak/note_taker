@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 app.use(express.static('public'));
 
-app.get('/', (req, res) => 
+app.get('*', (req, res) => 
     res.sendFile(path.join(__dirname, './public/index.html'))
 );
 
@@ -17,7 +17,8 @@ app.get('/notes', (req,res) =>
     res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
-app.get('*', (req, res) =>
+// I am not sure if this is correct, previous activities we did * for 404 but the assignment directions said to use * for index.html
+app.get('/', (req, res) =>
     res.sendFile(path.join(__dirname, 'public/404.html'))
 );
 
