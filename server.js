@@ -24,7 +24,7 @@ app.get('/notes', (req,res) =>
 
 // app.get "*" is sending the 404.html file to the client
 app.get('*', (req, res) =>
-    res.sendFile(path.join(__dirname, 'public/404.html'))
+    res.sendFile(path.join(__dirname, './public/404.html'))
 );
 
 // listening for the port
