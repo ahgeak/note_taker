@@ -14,11 +14,11 @@ The motivation for this program is to help keep users organized. Creating this p
 
 ## Usage
 
-Deployed URl: https://ahgeak.github.io/note_taker/
+Deployed URl: https://gentle-lake-68304-246fd0ade036.herokuapp.com/ 
 
 GitHub Repo: https://github.com/ahgeak/note_taker 
 
-Type a new note with a descrition. Then click the save note button to save the note to the database file and the note will be displayed on scren. You will also have the option to clear form. If you would like to open an old task, click on the name in the left column. To delete a task click the trash can icon next to that task.
+Type a new note with a descrition. Then click the save note button to save the note to the database file and the note will be displayed on screen. You will also have the option to clear the form. If you would like to open an old task, click on the name in the left column. To delete a task click the trash can icon next to that task.
 
 Screenshot of project:
 
